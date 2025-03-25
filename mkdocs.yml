@@ -1,0 +1,19 @@
+site_name: PTNAD Client Documentation
+site_description: Documentation for the PTNAD Client project.
+repo_url: https://github.com/your-repo-link
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - API Reference: api.md
+
+theme:
+  name: material
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+  - admonition
+  - codehilite
+  - pymdownx.superfences
