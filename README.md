@@ -1,4 +1,4 @@
-![PyPI](https://img.shields.io/pypi/v/ptnad-client-test)
+![PyPI](https://img.shields.io/testpypi/v/ptnad-client-test)
 
 # PT NAD Client
 
