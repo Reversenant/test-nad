@@ -1,12 +1,12 @@
 [project]
-name = "ptnad-client"
+name = "ptnad-client-test"
 version = "0.1.0"
 description = "Python library for interacting with the PT NAD API"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
 license-files = ["LICENSE"]
-authors = [{ name = "Andrey Tyulenev" }]
+authors = [{ name = "None" }]
 dependencies = [
     "requests>=2.32.3",
 ]
