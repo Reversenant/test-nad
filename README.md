@@ -1,5 +1,7 @@
 ![TestPyPI](https://img.shields.io/pypi/v/fastapi)
 
+🌐 Available languages: [en English](README.en.md) | [🇷🇺 Русский](README.ru.md)
+
 # PT NAD Client
 
 Python library for interacting with the PT NAD API.
@@ -48,6 +50,22 @@ print(f"Results: {result}")
 - Sources management
 - Hosts management
 - Groups management
+
+## 🧑‍💻 Contributing
+
+Want to contribute? Check out the following:
+
+- [📄 Contributor Guide](CONTRIBUTING.md)
+- [🛠 Recommended Best Practices](best_practices.md)
+
+We welcome all ideas, suggestions, and improvements!
+
+## 💬 Community
+
+Join our Telegram community to discuss the project, ask questions, and share your ideas:
+
+👉 [t.me/Сообщество экспертов по безопасности SEC](https://t.me/s3curity_experts_community)
+
 
 ### 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
