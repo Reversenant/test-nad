@@ -43,23 +43,25 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Install MkDocs
-        run: |
-          pip install mkdocs mkdocs-material termynal
-
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Install uv
-        uses: astral-sh/setup-uv@v5
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version-file: "pyproject.toml"
+          python-version: '3.11'
 
-      - name: Sync docs with uv
-        run: uv sync --no-group dev --group docs --active
+      - name: Install dependencies
+        run: |
+          run: uv sync --no-group dev --group docs --system --active
 
-      - name: Deploy mkdocs to GitHub Pages
-        run: mkdocs gh-deploy --config-file ./mkdocs.yml --force
+      - name: Build Sphinx docs
+        run: |
+          cd docs_sphinx
+          sphinx-build -b html source build/html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs_sphinx/build/html
