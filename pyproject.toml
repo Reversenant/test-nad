@@ -28,7 +28,7 @@ docs = [
     "sphinx>=8.0",
     "sphinx-autobuild>=2024.2.4",
     "sphinx_rtd_theme>=2.0",
-    "autodocsumm>=0.2.9"
+    "autodocsumm>=0.2"
 ]
 
 [tool.uv]
