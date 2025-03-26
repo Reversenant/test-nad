@@ -19,9 +19,9 @@ Issues = "https://github.com/Security-Experts-Community/ptnad/issues"
 
 [dependency-groups.docs]
 dependencies = [
-    "sphinx = >=8.0"
-    "sphinx-autobuild = >=2024.2.4"
-    "alabaster = >=2.0"
+    "sphinx>=8.0"
+    "sphinx-autobuild>=2024.2.4"
+    "alabaster>=2.0"
 ]
 
 [tool.uv]
