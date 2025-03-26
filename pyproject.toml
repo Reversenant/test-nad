@@ -17,8 +17,14 @@ Documentation = "https://security-experts-community.github.io/ptnad"
 Repository = "https://github.com/Security-Experts-Community/ptnad"
 Issues = "https://github.com/Security-Experts-Community/ptnad/issues"
 
-[dependency-groups.docs]
-dependencies = [
+[dependency-groups]
+dev = [
+    "black>=24.10.0",
+    "isort>=5.13.2",
+    "mypy>=1.14.1"
+]
+
+docs = [
     "sphinx>=8.0",
     "sphinx-autobuild>=2024.2.4",
     "alabaster>=2.0"
