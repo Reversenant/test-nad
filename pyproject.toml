@@ -27,7 +27,7 @@ dev = [
 docs = [
     "sphinx>=8.0",
     "sphinx-autobuild>=2024.2.4",
-    "alabaster>=2.0"
+    "alabaster>=1.0"
 ]
 
 [tool.uv]
