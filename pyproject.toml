@@ -18,9 +18,11 @@ Repository = "https://github.com/Security-Experts-Community/ptnad"
 Issues = "https://github.com/Security-Experts-Community/ptnad/issues"
 
 [dependency-groups]
-sphinx = ">=8.0"
-sphinx-autobuild = ">=2024.2.4"
-sphinx-rtd-theme = ">=2.0"
+dependencies = [
+    sphinx = ">=8.0"
+    sphinx-autobuild = ">=2024.2.4"
+    alabaster = ">=2.0"
+]
 
 [tool.uv]
 package = true
