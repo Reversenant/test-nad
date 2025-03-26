@@ -17,7 +17,7 @@ Documentation = "https://security-experts-community.github.io/ptnad"
 Repository = "https://github.com/Security-Experts-Community/ptnad"
 Issues = "https://github.com/Security-Experts-Community/ptnad/issues"
 
-[dependency-groups]
+[dependency-groups.docs]
 dependencies = [
     "sphinx = >=8.0"
     "sphinx-autobuild = >=2024.2.4"
