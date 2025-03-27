@@ -1,5 +1,6 @@
 site_name: TEST-NAD
-site_url:
+site_url: https://reversenant.github.io/test-nad/
+use_directory_urls: true
 theme:
   name: material
   font: false
