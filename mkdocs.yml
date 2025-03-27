@@ -1,9 +1,11 @@
 site_name: TEST-NAD
+site_url:
 theme:
   name: material
 
 plugins:
   - i18n:
+      docs_structure: folder
       languages:
         - locale: en
           name: English
@@ -14,5 +16,5 @@ plugins:
           build: true
 
 nav:
-  - Home: README.md
+  - Home: index.md
   - Contributing: CONTRIBUTING.md
