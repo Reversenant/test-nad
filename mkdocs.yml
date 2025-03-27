@@ -2,14 +2,6 @@ site_name: TEST-NAD
 theme:
   name: material
 
-nav:
-  - English:
-      - Home: en/index.md
-      - Contributing: en/CONTRIBUTING.md
-  - Русский:
-      - Главная: ru/index.md
-      - Вклад: ru/CONTRIBUTING.md
-
 plugins:
   - i18n:
       languages:
@@ -20,3 +12,7 @@ plugins:
         - locale: ru
           name: Русский
           build: true
+
+nav:
+  - Home: README.md
+  - Contributing: CONTRIBUTING.md
