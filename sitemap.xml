@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://reversenant.github.io/test-nad/</loc>
+        <lastmod>2025-03-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://reversenant.github.io/test-nad/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://reversenant.github.io/test-nad/ru/"/>
+    </url>
+    <url>
+        <loc>https://reversenant.github.io/test-nad/CONTRIBUTING/</loc>
+        <lastmod>2025-03-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://reversenant.github.io/test-nad/CONTRIBUTING/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://reversenant.github.io/test-nad/ru/CONTRIBUTING/"/>
+    </url>
+    <url>
+        <loc>https://reversenant.github.io/test-nad/ru/</loc>
+        <lastmod>2025-03-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://reversenant.github.io/test-nad/ru/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://reversenant.github.io/test-nad/"/>
+    </url>
+    <url>
+        <loc>https://reversenant.github.io/test-nad/ru/CONTRIBUTING/</loc>
+        <lastmod>2025-03-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://reversenant.github.io/test-nad/ru/CONTRIBUTING/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://reversenant.github.io/test-nad/CONTRIBUTING/"/>
+    </url>
+</urlset>
