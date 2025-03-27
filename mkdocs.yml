@@ -1,19 +1,31 @@
-site_name: PTNAD Client Documentation
-site_description: Documentation for the PTNAD Client project.
-repo_url: https://github.com/your-repo-link
+site_name: Test NAD
+site_description: "Автогенерация документации проекта"
+site_author: "Ваше имя/организация"
+repo_url: "https://github.com/reversenant/test-nad"
 
-nav:
-  - Home: index.md
-  - Installation: installation.md
-  - Usage: usage.md
-  - API Reference: api.md
+docs_dir: docs
+site_dir: site
 
 theme:
   name: material
+  language: en
 
-markdown_extensions:
-  - toc:
-      permalink: "#"
-  - admonition
-  - codehilite
-  - pymdownx.superfences
+extra:
+  social:
+    - icon: "fontawesome/brands/github"
+      link: "https://github.com/reversenant/test-nad"
+
+nav:
+  - EN:
+      - Home: en/index.md
+      - API:
+        - Reference: en/api/reference.md
+        - Contributing: en/CONTRIBUTING.md
+  - RU:
+      - Главная: ru/index.md
+      - API:
+        - Справка: ru/api/reference.md
+        - Вклад: ru/CONTRIBUTING.md
+
+plugins:
+  - search
