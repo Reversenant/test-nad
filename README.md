@@ -4,7 +4,7 @@
 
 Python library for interacting with the PT NAD API.
 
-### 🚀 Installation
+## 🚀 Installation
 ```python
 pip install ptnad-client
 ```
@@ -21,7 +21,7 @@ query = "SELECT src.ip, dst.ip, proto FROM flow WHERE end > 2025.02.25 and end <
 result = client.bql.execute(query)
 print(f"Results: {result}")
 ```
-### ✅ Features
+## ✅ Features
 
 🔐 Authentication
 - Local authentication
@@ -48,6 +48,16 @@ print(f"Results: {result}")
 - Sources management
 - Hosts management
 - Groups management
+
+## 🧑‍💻 Contributing
+
+Want to contribute? Check out the following:
+
+- [📄 Contributor Guide](CONTRIBUTING.md)
+
+We welcome all ideas, suggestions, and improvements!
+
+---
 
 ### 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.

@@ -1,31 +1,22 @@
-site_name: Test NAD
-site_description: "Автогенерация документации проекта"
-site_author: "Ваше имя/организация"
-repo_url: "https://github.com/reversenant/test-nad"
-
-docs_dir: docs
-site_dir: site
-
+site_name: TEST-NAD
 theme:
   name: material
-  language: en
-
-extra:
-  social:
-    - icon: "fontawesome/brands/github"
-      link: "https://github.com/reversenant/test-nad"
 
 nav:
-  - EN:
+  - English:
       - Home: en/index.md
-      - API:
-        - Reference: en/api/reference.md
-        - Contributing: en/CONTRIBUTING.md
-  - RU:
+      - Contributing: en/CONTRIBUTING.md
+  - Русский:
       - Главная: ru/index.md
-      - API:
-        - Справка: ru/api/reference.md
-        - Вклад: ru/CONTRIBUTING.md
+      - Вклад: ru/CONTRIBUTING.md
 
 plugins:
-  - search
+  - i18n:
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: ru
+          name: Русский
+          build: true
