@@ -50,7 +50,7 @@ docs: обновлена документация
 - Перед созданием issue — проверьте, не существует ли уже подобной задачи
 - Делайте feature-ветки и создавайте pull request с понятным описанием
 
-![image](../../docs/assets/pic_left.svg)
+![image](../assets/pic_left.svg)
 
 # ✍️ Developer Certificate of Origin (DCO)
 
