@@ -55,9 +55,6 @@ jobs:
           python-version-file: "pyproject.toml"
 
       - name: Sync docs with uv
-        run: uv sync
-  
-      - name: Deploy mkdocs to GitHub Pages
         run: |
-          pip install mkdocs
+          uv sync
           mkdocs gh-deploy --config-file ./mkdocs.yml --force
