@@ -15,18 +15,10 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "requests>=2.32.3",
-]
-
-[dependency-groups]
-dev = [
-    "black>=24.10.0",
-    "isort>=5.13.2",
-    "mypy>=1.14.1"
-]
-docs = [
     "mkdocs",
     "mkdocs-material",
-    "mkdocs-static-i18n"
+    "mkdocs-static-i18n",
+    "mkdocstrings-python"
 ]
 
 [build-system]

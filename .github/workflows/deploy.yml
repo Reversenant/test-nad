@@ -60,6 +60,6 @@ jobs:
 
       - name: Sync docs with uv
         run: uv sync --no-group dev --group docs --active
-
+  
       - name: Deploy mkdocs to GitHub Pages
         run: mkdocs gh-deploy --config-file ./mkdocs.yml --force
