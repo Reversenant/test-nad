@@ -45,7 +45,7 @@ jobs:
     steps:
       - name: Install MkDocs
         run: |
-          pip install mkdocs mkdocs-material mkdocs-static-i18n termynal
+          pip install mkdocs mkdocs-material mkdocs-static-i18n termynal mkdocstrings
 
       - name: Checkout repository
         uses: actions/checkout@v4
