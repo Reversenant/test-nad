@@ -43,6 +43,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Install MkDocs
+        run: |
+          pip install mkdocs mkdocs-material mkdocs-static-i18n termynal
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -55,6 +59,7 @@ jobs:
           python-version-file: "pyproject.toml"
 
       - name: Sync docs with uv
-        run: |
-          uv sync
-          mkdocs gh-deploy --config-file ./mkdocs.yml --force
+        run: uv sync
+  
+      - name: Deploy mkdocs to GitHub Pages
+        run: mkdocs gh-deploy --config-file ./mkdocs.yml --force
