@@ -58,4 +58,6 @@ jobs:
         run: uv sync
   
       - name: Deploy mkdocs to GitHub Pages
-        run: uv venv exec mkdocs gh-deploy --config-file ./mkdocs.yml --force
+        run: |
+          pip install mkdocs
+          mkdocs gh-deploy --config-file ./mkdocs.yml --force
