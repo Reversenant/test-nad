@@ -4,6 +4,11 @@
 
 # PT NAD Client
 
+**Documentation**: <a href="https://reversenant/test-nad">https://reversenant/test-nad</a>
+
+**Source Code**: <a href="https://github.com/reversenant/test-nad">https://github.com/reversenant/test-nad</a>
+
+---
 Python library for interacting with the PT NAD API.
 
 ## 🚀 Installation
