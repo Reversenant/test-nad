@@ -1,3 +1,5 @@
+![image](docs/assets/logo_with_text.svg)
+
 ![PyPI](https://img.shields.io/pypi/v/ptnad)
 
 # PT NAD Client
@@ -21,6 +23,9 @@ query = "SELECT src.ip, dst.ip, proto FROM flow WHERE end > 2025.02.25 and end <
 result = client.bql.execute(query)
 print(f"Results: {result}")
 ```
+
+![image](docs/assets/pic_left.svg)
+
 ## ✅ Features
 
 🔐 Authentication
