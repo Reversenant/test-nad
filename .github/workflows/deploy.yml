@@ -62,4 +62,6 @@ jobs:
         run: uv pip install -e .
 
       - name: Deploy mkdocs to GitHub Pages
-        run: mkdocs gh-deploy --config-file ./mkdocs.yml --force
+        run: |
+          source .venv/bin/activate
+          mkdocs gh-deploy --config-file ./mkdocs.yml --force
