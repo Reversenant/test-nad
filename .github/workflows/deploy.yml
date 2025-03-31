@@ -43,12 +43,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Install uv
-        uses: astral-sh/setup-uv@v5
-
       - name: Install MkDocs
         run: |
-          uv pip install -e . install mkdocs mkdocs-material mkdocs-static-i18n termynal mkdocstrings mkdocstrings-python
+          pip install mkdocs mkdocs-material mkdocs-static-i18n termynal mkdocstrings mkdocstrings-python
 
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -62,7 +59,7 @@ jobs:
         run: uv sync
   
       - name: Install local package
-        run: uv pip install -e . install mkdocs mkdocs-material mkdocs-static-i18n termynal mkdocstrings mkdocstrings-python
+        run: uv pip install -e .
 
       - name: Deploy mkdocs to GitHub Pages
         run: mkdocs gh-deploy --config-file ./mkdocs.yml --force
