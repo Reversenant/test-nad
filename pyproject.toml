@@ -12,7 +12,7 @@ classifiers = [
 authors = [
     { name = "Andrey Tyulenev" }
 ]
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "requests>=2.32.3",
     "mkdocs",
