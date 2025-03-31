@@ -43,9 +43,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Install MkDocs
-        run: |
-          pip install mkdocs mkdocs-material mkdocs-static-i18n termynal mkdocstrings mkdocstrings-python
 
       - name: Checkout repository
         uses: actions/checkout@v4
