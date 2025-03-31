@@ -50,7 +50,7 @@ Create a corresponding issue.
 - Before creating an issue — check if a similar one already exists
 - Create feature branches and submit pull requests with clear descriptions
 
-![image](../../docs/assets/pic_left.svg)
+![image](/docs/assets/pic_left.svg)
 
 # ✍️ Developer Certificate of Origin (DCO)
 
