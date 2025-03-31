@@ -30,7 +30,7 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          paths: ["."]
+          paths: ["src"]
           import:
             - https://docs.python.org/3/objects.inv
           options:
