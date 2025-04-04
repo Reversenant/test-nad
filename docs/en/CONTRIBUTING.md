@@ -49,3 +49,4 @@ Create a corresponding issue.
 - Try to cover new functionality with tests
 - Before creating an issue — check if a similar one already exists
 - Create feature branches and submit pull requests with clear descriptions
+
