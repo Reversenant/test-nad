@@ -61,3 +61,4 @@ We welcome all ideas, suggestions, and improvements!
 
 ### 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
