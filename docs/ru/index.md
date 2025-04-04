@@ -1,6 +1,14 @@
+![image](../assets/logo_with_text.svg)
+
 ![PyPI](https://img.shields.io/pypi/v/ptnad)
 
 # PT NAD Client
+
+**Документация**: <a href="https://reversenant/test-nad">https://reversenant/test-nad</a>
+
+**Исходный код**: <a href="https://github.com/reversenant/test-nad">https://github.com/reversenant/test-nad</a>
+
+---
 
 Библиотека на Python для взаимодействия с API PT NAD.
 
@@ -22,7 +30,7 @@ query = "SELECT src.ip, dst.ip, proto FROM flow WHERE end > 2025.02.25 and end <
 result = client.bql.execute(query)
 print(f"Результаты: {result}")
 ```
-
+![image](../assets/pic_left.svg)
 ## ✅ Возможности
 
 🔐 Аутентификация  

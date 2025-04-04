@@ -1,51 +1,118 @@
 # 🤝 Contributing Guide
 
-Спасибо за интерес к проекту! Вот как можно внести вклад:
+Thank you for your interest in the project! Here's how you can contribute:
 
-## 🚀 Как начать
+## 🚀 Getting Started
 
-1. Сделайте форк репозитория
-2. Создайте новую ветку:
+1. Fork the repository
+2. Create a new branch:
 ```
-git checkout -b feature/ваша_фича
+git checkout -b feature/your_feature
 ```
-3. Внесите все необходимые изменения
-4. Обязательно протестируйте код
-5. Создайте Pull Request на `main` или `dev` (уточнить при необходимости)
+3. Make all necessary changes
+4. Be sure to test your code
+5. Create a Pull Request to `main` or `dev` (confirm if unsure)
 
-## ✅ Что приветствуется
+## ✅ What We Appreciate
 
-- Улучшение документации
-- Сообщение об ошибках (issues)
-- Новые фичи (в идеале - с предварительным обсуждением)
-- Добавление новых тестов к существующей функциональности проекта
+- Improving documentation
+- Reporting issues
+- New features (ideally after discussion)
+- Adding new tests for existing functionality
 
-## 🧹 Стиль кода
+## 🧹 Code Style
 
-- Соблюдайте форматирование и стиль (eslint/black/prettier)
-- Старайтесь писать осмысленные коммиты:
+- Follow formatting and style guidelines (eslint/black/prettier)
+- Try to write meaningful commit messages:
 ```
-feature: Добавлена поддержка X 
-fix: устранена ошибка Y 
-docs: обновлена документация
+feature: Added support for X
+fix: Fixed bug Y
+docs: Updated documentation
 ```
 
-## 🌐 Хочу помочь с переводом
+## 🌐 Want to Help with Translation?
 
-Мы стремимся сделать проект доступным для как можно большего числа людей. Если вы хотите помочь с переводом на другой язык — это очень приветствуется!
+We aim to make the project accessible to as many people as possible. If you'd like to help translate into another language — it's very welcome!
 
-📄 Доступные переводы:
+📄 Available translations:
 - 🇺🇸 English (default)
-- 🇷🇺 Русский (в процессе)
-- 🌐 Ваш язык? Помогите нам добавить!
+- 🇷🇺 Russian (in progress)
+- 🌐 Your language? Help us add it!
 
-Создайте соответствующий issue
+Create a corresponding issue.
 
 ## 🛠 Best Practices
 
-- Используйте стабильные версии зависимостей, указанные в `package.json`/`requirements.txt`/`pyproject.toml`
-- Следуйте стилю кодирования, принятому в проекте (например, через `eslint`, `black`, `prettier`, etc.)
-- Пишите читаемый и самодокументирующийся код
-- Старайтесь покрывать привносимые функциональности тестами
-- Перед созданием issue — проверьте, не существует ли уже подобной задачи
-- Делайте feature-ветки и создавайте pull request с понятным описанием
+- Use stable dependency versions listed in `package.json` / `requirements.txt` / `pyproject.toml`
+- Follow the project's coding style (e.g., via `eslint`, `black`, `prettier`, etc.)
+- Write readable and self-documenting code
+- Try to cover new functionality with tests
+- Before creating an issue — check if a similar one already exists
+- Create feature branches and submit pull requests with clear descriptions
+
+![image](/docs/assets/pic_left.svg)
+
+# ✍️ Developer Certificate of Origin (DCO)
+
+Thank you for your contribution! To ensure transparency and legal clarity in the project, we use the **Developer Certificate of Origin (DCO)**.
+
+## 📜 What is DCO?
+
+The DCO is a simple statement that you have the right to submit the code you’re contributing and that you agree to the project’s license. This is especially important for open source projects.
+
+Full DCO text: [https://developercertificate.org](https://developercertificate.org)
+
+## ✅ What do you need to do?
+
+**Every commit must be signed.** You can do this by adding the `-s` flag when creating a commit:
+
+```bash
+git commit -s -m "fix: fixed error handling"
+```
+
+Example of a commit signature:
+
+```
+Signed-off-by: John Doe <john@example.com>
+```
+
+## 🛠 Configure your name and email
+
+Make sure Git is configured with your name and email:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+```
+
+## 🔁 How to re-sign commits
+
+If you forgot to sign a commit:
+
+### One commit
+
+```bash
+git commit --amend -s
+git push --force
+```
+
+### Multiple commits
+
+```bash
+git rebase -i HEAD~N  # Replace N with the number of recent commits
+```
+
+Change `pick` to `edit` for the commits you want to sign, and for each:
+
+```bash
+git commit --amend -s
+git rebase --continue
+```
+
+After finishing the rebase:
+
+```bash
+git push --force
+```
+
+> ⚠️ __Warning:__ use `--force` with caution, especially when working in a team.
