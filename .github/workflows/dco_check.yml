@@ -1,0 +1,10 @@
+name: DCO Check
+
+on:
+  push:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: KineticCafe/actions-dco@v1
